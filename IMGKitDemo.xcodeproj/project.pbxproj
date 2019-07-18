@@ -15,6 +15,8 @@
 		83361F7822D587140017E226 /* UIViewController+IMGWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 83361F7622D587140017E226 /* UIViewController+IMGWindow.m */; };
 		83361F7B22D5884B0017E226 /* UIAlertController+IMGCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 83361F7922D5884B0017E226 /* UIAlertController+IMGCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83361F7C22D5884B0017E226 /* UIAlertController+IMGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 83361F7A22D5884B0017E226 /* UIAlertController+IMGCategory.m */; };
+		834BD7AF22E07D1900A38D05 /* IMGWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 834BD7AD22E07D1900A38D05 /* IMGWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		834BD7B022E07D1900A38D05 /* IMGWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 834BD7AE22E07D1900A38D05 /* IMGWeakProxy.m */; };
 		8379CA6322D4827800C852EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8379CA6222D4827800C852EA /* AppDelegate.m */; };
 		8379CA6622D4827800C852EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8379CA6522D4827800C852EA /* ViewController.m */; };
 		8379CA6922D4827800C852EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8379CA6722D4827800C852EA /* Main.storyboard */; };
@@ -136,6 +138,8 @@
 		83361F7622D587140017E226 /* UIViewController+IMGWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IMGWindow.m"; sourceTree = "<group>"; };
 		83361F7922D5884B0017E226 /* UIAlertController+IMGCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+IMGCategory.h"; sourceTree = "<group>"; };
 		83361F7A22D5884B0017E226 /* UIAlertController+IMGCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+IMGCategory.m"; sourceTree = "<group>"; };
+		834BD7AD22E07D1900A38D05 /* IMGWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGWeakProxy.h; sourceTree = "<group>"; };
+		834BD7AE22E07D1900A38D05 /* IMGWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMGWeakProxy.m; sourceTree = "<group>"; };
 		8379CA5E22D4827800C852EA /* IMGKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMGKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8379CA6122D4827800C852EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8379CA6222D4827800C852EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -347,6 +351,8 @@
 				83C3F45022E063020064F5AD /* IMGTool.h */,
 				83C3F45A22E063150064F5AD /* IMGTimerManager.h */,
 				83C3F45B22E063150064F5AD /* IMGTimerManager.m */,
+				834BD7AD22E07D1900A38D05 /* IMGWeakProxy.h */,
+				834BD7AE22E07D1900A38D05 /* IMGWeakProxy.m */,
 				83C3F45122E063020064F5AD /* Info.plist */,
 			);
 			path = IMGTool;
@@ -416,6 +422,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834BD7AF22E07D1900A38D05 /* IMGWeakProxy.h in Headers */,
 				83C3F45C22E063150064F5AD /* IMGTimerManager.h in Headers */,
 				83C3F45222E063020064F5AD /* IMGTool.h in Headers */,
 			);
@@ -726,6 +733,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834BD7B022E07D1900A38D05 /* IMGWeakProxy.m in Sources */,
 				83C3F45D22E063150064F5AD /* IMGTimerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
