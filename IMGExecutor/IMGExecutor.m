@@ -125,12 +125,24 @@
     });
 }
 
+- (void)delay:(NSTimeInterval)delay execute:(void (^)(void))block {
+    NSCParameterAssert(block != NULL);
+    [self after:[NSDate dateWithTimeIntervalSinceNow:delay] execute:block];
+}
+
 - (void)after:(NSDate *)date execute:(void (^)(void))block {
     NSCParameterAssert(date != nil);
     NSCParameterAssert(block != NULL);
     dispatch_after([self.class wallTimeWithDate:date], self.queue, ^{
         block();
     });
+}
+
+- (void)delay:(NSTimeInterval)delay interval:(NSTimeInterval)interval leeway:(NSTimeInterval)leeway execute:(void (^)(void))block {
+    NSCParameterAssert(interval > 0.0 && interval < INT64_MAX / NSEC_PER_SEC);
+    NSCParameterAssert(leeway >= 0.0 && leeway < INT64_MAX / NSEC_PER_SEC);
+    NSCParameterAssert(block != NULL);
+    [self after:[NSDate dateWithTimeIntervalSinceNow:delay] interval:interval leeway:leeway execute:block];
 }
 
 - (void)after:(NSDate *)date interval:(NSTimeInterval)interval leeway:(NSTimeInterval)leeway execute:(void (^)(void))block {
@@ -153,8 +165,6 @@
 - (void)resume {
     dispatch_resume(self.queue);
 }
-
-
 
 + (dispatch_time_t)wallTimeWithDate:(NSDate *)date {
     NSCParameterAssert(date != nil);
