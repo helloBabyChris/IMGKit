@@ -16,8 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 不可用
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;
+
 /// 唯一初始化方法
-- (instancetype)initWithMakable:(UIView *)makable NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithMakable:(id)makable NS_DESIGNATED_INITIALIZER;
 
 #pragma mark - 自定义
 
@@ -39,9 +40,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly) IMGViewMaker * (^centerY)(CGFloat centerY);
 /// 添加到父视图
 @property (nonatomic, copy, readonly) IMGViewMaker * (^addToSupview)(UIView *superview);
-
 /// 视图
-@property (nonatomic, strong, readonly) UIView *view;
+@property (nonatomic, weak, readonly) UIView *view;
 
 #pragma mark - 属性
 

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <IMGMaker/IMGMaker.h>
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +19,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+    self.window = [UIWindow img_makeWindow:^(IMGWindowMaker * _Nonnull make) {
+        make.frame(UIScreen.mainScreen.bounds);
+        make.backgroundColor(UIColor.greenColor);
+        make.rootViewController(ViewController.alloc.init);
+        make.makeKeyAndVisible();
+    }];
     return YES;
 }
 

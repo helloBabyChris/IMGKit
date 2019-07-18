@@ -12,7 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface IMGWindowMaker : IMGViewMaker
 
-- (instancetype)initWithMakable:(UIWindow *)makable;
+#pragma mark - 自定义
+
+/// 视图
+@property (nonatomic, weak, readonly) UIWindow *window;
+
+#pragma mark - property
 
 @property (nonatomic, copy, readonly) IMGWindowMaker * (^screen)(UIScreen *screen) NS_AVAILABLE_IOS(3_2);
 @property (nonatomic, copy, readonly) IMGWindowMaker * (^windowLevel)(UIWindowLevel windowLevel);

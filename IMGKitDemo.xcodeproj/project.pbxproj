@@ -25,12 +25,34 @@
 		8379CA8622D4854D00C852EA /* IMGRouter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8379CA7E22D4854D00C852EA /* IMGRouter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8379CA8D22D485F200C852EA /* IMGRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8379CA8B22D485F200C852EA /* IMGRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8379CA8E22D485F200C852EA /* IMGRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8379CA8C22D485F200C852EA /* IMGRouter.m */; };
+		83C3F40E22E00F8A0064F5AD /* IMGLabelMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3F40C22E00F8A0064F5AD /* IMGLabelMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C3F40F22E00F8A0064F5AD /* IMGLabelMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C3F40D22E00F8A0064F5AD /* IMGLabelMaker.m */; };
+		83C3F41222E011760064F5AD /* IMGImageViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3F41022E011760064F5AD /* IMGImageViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C3F41322E011760064F5AD /* IMGImageViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C3F41122E011760064F5AD /* IMGImageViewMaker.m */; };
+		83C3F41622E017C20064F5AD /* IMGControlMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3F41422E017C20064F5AD /* IMGControlMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C3F41722E017C20064F5AD /* IMGControlMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C3F41522E017C20064F5AD /* IMGControlMaker.m */; };
+		83C3F41A22E0180F0064F5AD /* IMGButtonMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3F41822E0180F0064F5AD /* IMGButtonMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C3F41B22E0180F0064F5AD /* IMGButtonMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C3F41922E0180F0064F5AD /* IMGButtonMaker.m */; };
+		83C3F41E22E0182D0064F5AD /* IMGTextFieldMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3F41C22E0182D0064F5AD /* IMGTextFieldMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C3F41F22E0182D0064F5AD /* IMGTextFieldMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C3F41D22E0182D0064F5AD /* IMGTextFieldMaker.m */; };
+		83C3F42222E018510064F5AD /* IMGScrollViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3F42022E018510064F5AD /* IMGScrollViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C3F42322E018510064F5AD /* IMGScrollViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C3F42122E018510064F5AD /* IMGScrollViewMaker.m */; };
+		83C3F42622E018D10064F5AD /* IMGTextViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3F42422E018D10064F5AD /* IMGTextViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C3F42722E018D10064F5AD /* IMGTextViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C3F42522E018D10064F5AD /* IMGTextViewMaker.m */; };
+		83C3F42A22E018E30064F5AD /* IMGTableViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3F42822E018E30064F5AD /* IMGTableViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C3F42B22E018E30064F5AD /* IMGTableViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C3F42922E018E30064F5AD /* IMGTableViewMaker.m */; };
+		83C3F42E22E018F40064F5AD /* IMGCollectionViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3F42C22E018F40064F5AD /* IMGCollectionViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C3F42F22E018F40064F5AD /* IMGCollectionViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C3F42D22E018F40064F5AD /* IMGCollectionViewMaker.m */; };
+		83C3F44022E054550064F5AD /* IMGExecutor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C3F43922E054540064F5AD /* IMGExecutor.framework */; };
+		83C3F44122E054550064F5AD /* IMGExecutor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83C3F43922E054540064F5AD /* IMGExecutor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		83C3F44722E054F20064F5AD /* IMGExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3F44522E054F20064F5AD /* IMGExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83C3F44822E054F20064F5AD /* IMGExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C3F44622E054F20064F5AD /* IMGExecutor.m */; };
 		83E27BC522DEC8D800199482 /* IMGMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E27BC322DEC8D800199482 /* IMGMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83E27BC822DEC8D800199482 /* IMGMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E27BC122DEC8D800199482 /* IMGMaker.framework */; };
 		83E27BC922DEC8D800199482 /* IMGMaker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83E27BC122DEC8D800199482 /* IMGMaker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		83E27BD322DECEB400199482 /* IMGViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E27BD122DECEB400199482 /* IMGViewMaker.h */; };
+		83E27BD322DECEB400199482 /* IMGViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E27BD122DECEB400199482 /* IMGViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83E27BD422DECEB400199482 /* IMGViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E27BD222DECEB400199482 /* IMGViewMaker.m */; };
-		83E27BD722DF0A7800199482 /* IMGWindowMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E27BD522DF0A7800199482 /* IMGWindowMaker.h */; };
+		83E27BD722DF0A7800199482 /* IMGWindowMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E27BD522DF0A7800199482 /* IMGWindowMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83E27BD822DF0A7800199482 /* IMGWindowMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E27BD622DF0A7800199482 /* IMGWindowMaker.m */; };
 		83E2E58822D5BD3200C87A29 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E2E58722D5BD3200C87A29 /* TextViewController.m */; };
 		83E2E58C22D5E24C00C87A29 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E2E58B22D5E24C00C87A29 /* Test1ViewController.m */; };
@@ -58,6 +80,13 @@
 			remoteGlobalIDString = 8379CA7D22D4854D00C852EA;
 			remoteInfo = IMGRouter;
 		};
+		83C3F43E22E054550064F5AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8379CA5622D4827800C852EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83C3F43822E054540064F5AD;
+			remoteInfo = IMGExecutor;
+		};
 		83E27BC622DEC8D800199482 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8379CA5622D4827800C852EA /* Project object */;
@@ -75,6 +104,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				83E27BC922DEC8D800199482 /* IMGMaker.framework in Embed Frameworks */,
+				83C3F44122E054550064F5AD /* IMGExecutor.framework in Embed Frameworks */,
 				83361F7122D586CC0017E226 /* IMGCategory.framework in Embed Frameworks */,
 				8379CA8622D4854D00C852EA /* IMGRouter.framework in Embed Frameworks */,
 			);
@@ -107,6 +137,28 @@
 		8379CA8122D4854D00C852EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8379CA8B22D485F200C852EA /* IMGRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGRouter.h; sourceTree = "<group>"; };
 		8379CA8C22D485F200C852EA /* IMGRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMGRouter.m; sourceTree = "<group>"; };
+		83C3F40C22E00F8A0064F5AD /* IMGLabelMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGLabelMaker.h; sourceTree = "<group>"; };
+		83C3F40D22E00F8A0064F5AD /* IMGLabelMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMGLabelMaker.m; sourceTree = "<group>"; };
+		83C3F41022E011760064F5AD /* IMGImageViewMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGImageViewMaker.h; sourceTree = "<group>"; };
+		83C3F41122E011760064F5AD /* IMGImageViewMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMGImageViewMaker.m; sourceTree = "<group>"; };
+		83C3F41422E017C20064F5AD /* IMGControlMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGControlMaker.h; sourceTree = "<group>"; };
+		83C3F41522E017C20064F5AD /* IMGControlMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMGControlMaker.m; sourceTree = "<group>"; };
+		83C3F41822E0180F0064F5AD /* IMGButtonMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGButtonMaker.h; sourceTree = "<group>"; };
+		83C3F41922E0180F0064F5AD /* IMGButtonMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMGButtonMaker.m; sourceTree = "<group>"; };
+		83C3F41C22E0182D0064F5AD /* IMGTextFieldMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGTextFieldMaker.h; sourceTree = "<group>"; };
+		83C3F41D22E0182D0064F5AD /* IMGTextFieldMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMGTextFieldMaker.m; sourceTree = "<group>"; };
+		83C3F42022E018510064F5AD /* IMGScrollViewMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGScrollViewMaker.h; sourceTree = "<group>"; };
+		83C3F42122E018510064F5AD /* IMGScrollViewMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMGScrollViewMaker.m; sourceTree = "<group>"; };
+		83C3F42422E018D10064F5AD /* IMGTextViewMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGTextViewMaker.h; sourceTree = "<group>"; };
+		83C3F42522E018D10064F5AD /* IMGTextViewMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMGTextViewMaker.m; sourceTree = "<group>"; };
+		83C3F42822E018E30064F5AD /* IMGTableViewMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGTableViewMaker.h; sourceTree = "<group>"; };
+		83C3F42922E018E30064F5AD /* IMGTableViewMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMGTableViewMaker.m; sourceTree = "<group>"; };
+		83C3F42C22E018F40064F5AD /* IMGCollectionViewMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGCollectionViewMaker.h; sourceTree = "<group>"; };
+		83C3F42D22E018F40064F5AD /* IMGCollectionViewMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMGCollectionViewMaker.m; sourceTree = "<group>"; };
+		83C3F43922E054540064F5AD /* IMGExecutor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IMGExecutor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C3F43C22E054550064F5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C3F44522E054F20064F5AD /* IMGExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGExecutor.h; sourceTree = "<group>"; };
+		83C3F44622E054F20064F5AD /* IMGExecutor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMGExecutor.m; sourceTree = "<group>"; };
 		83E27BC122DEC8D800199482 /* IMGMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IMGMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E27BC322DEC8D800199482 /* IMGMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGMaker.h; sourceTree = "<group>"; };
 		83E27BC422DEC8D800199482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -137,10 +189,18 @@
 				83361F7022D586CC0017E226 /* IMGCategory.framework in Frameworks */,
 				8379CA8522D4854D00C852EA /* IMGRouter.framework in Frameworks */,
 				83E27BC822DEC8D800199482 /* IMGMaker.framework in Frameworks */,
+				83C3F44022E054550064F5AD /* IMGExecutor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8379CA7B22D4854D00C852EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C3F43622E054540064F5AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,6 +254,7 @@
 				8379CA7F22D4854D00C852EA /* IMGRouter */,
 				83361F6A22D586CC0017E226 /* IMGCategory */,
 				83E27BC222DEC8D800199482 /* IMGMaker */,
+				83C3F43A22E054550064F5AD /* IMGExecutor */,
 				8379CA5F22D4827800C852EA /* Products */,
 				2F6B4F1CA5CE1809E8D44B94 /* Pods */,
 				6C9471618E5008EF32079A3C /* Frameworks */,
@@ -207,6 +268,7 @@
 				8379CA7E22D4854D00C852EA /* IMGRouter.framework */,
 				83361F6922D586CC0017E226 /* IMGCategory.framework */,
 				83E27BC122DEC8D800199482 /* IMGMaker.framework */,
+				83C3F43922E054540064F5AD /* IMGExecutor.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,6 +303,16 @@
 			path = IMGRouter;
 			sourceTree = "<group>";
 		};
+		83C3F43A22E054550064F5AD /* IMGExecutor */ = {
+			isa = PBXGroup;
+			children = (
+				83C3F44522E054F20064F5AD /* IMGExecutor.h */,
+				83C3F44622E054F20064F5AD /* IMGExecutor.m */,
+				83C3F43C22E054550064F5AD /* Info.plist */,
+			);
+			path = IMGExecutor;
+			sourceTree = "<group>";
+		};
 		83E27BC222DEC8D800199482 /* IMGMaker */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +321,24 @@
 				83E27BD222DECEB400199482 /* IMGViewMaker.m */,
 				83E27BD522DF0A7800199482 /* IMGWindowMaker.h */,
 				83E27BD622DF0A7800199482 /* IMGWindowMaker.m */,
+				83C3F40C22E00F8A0064F5AD /* IMGLabelMaker.h */,
+				83C3F40D22E00F8A0064F5AD /* IMGLabelMaker.m */,
+				83C3F41022E011760064F5AD /* IMGImageViewMaker.h */,
+				83C3F41122E011760064F5AD /* IMGImageViewMaker.m */,
+				83C3F41422E017C20064F5AD /* IMGControlMaker.h */,
+				83C3F41522E017C20064F5AD /* IMGControlMaker.m */,
+				83C3F41822E0180F0064F5AD /* IMGButtonMaker.h */,
+				83C3F41922E0180F0064F5AD /* IMGButtonMaker.m */,
+				83C3F41C22E0182D0064F5AD /* IMGTextFieldMaker.h */,
+				83C3F41D22E0182D0064F5AD /* IMGTextFieldMaker.m */,
+				83C3F42022E018510064F5AD /* IMGScrollViewMaker.h */,
+				83C3F42122E018510064F5AD /* IMGScrollViewMaker.m */,
+				83C3F42422E018D10064F5AD /* IMGTextViewMaker.h */,
+				83C3F42522E018D10064F5AD /* IMGTextViewMaker.m */,
+				83C3F42822E018E30064F5AD /* IMGTableViewMaker.h */,
+				83C3F42922E018E30064F5AD /* IMGTableViewMaker.m */,
+				83C3F42C22E018F40064F5AD /* IMGCollectionViewMaker.h */,
+				83C3F42D22E018F40064F5AD /* IMGCollectionViewMaker.m */,
 				83E27BC422DEC8D800199482 /* Info.plist */,
 			);
 			path = IMGMaker;
@@ -275,13 +365,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83C3F43422E054540064F5AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C3F44722E054F20064F5AD /* IMGExecutor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		83E27BBC22DEC8D800199482 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				83E27BD322DECEB400199482 /* IMGViewMaker.h in Headers */,
+				83C3F41A22E0180F0064F5AD /* IMGButtonMaker.h in Headers */,
+				83C3F41622E017C20064F5AD /* IMGControlMaker.h in Headers */,
 				83E27BC522DEC8D800199482 /* IMGMaker.h in Headers */,
+				83C3F42A22E018E30064F5AD /* IMGTableViewMaker.h in Headers */,
+				83C3F41222E011760064F5AD /* IMGImageViewMaker.h in Headers */,
+				83C3F42E22E018F40064F5AD /* IMGCollectionViewMaker.h in Headers */,
+				83C3F42622E018D10064F5AD /* IMGTextViewMaker.h in Headers */,
+				83C3F40E22E00F8A0064F5AD /* IMGLabelMaker.h in Headers */,
 				83E27BD722DF0A7800199482 /* IMGWindowMaker.h in Headers */,
+				83C3F42222E018510064F5AD /* IMGScrollViewMaker.h in Headers */,
+				83C3F41E22E0182D0064F5AD /* IMGTextFieldMaker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +430,7 @@
 				8379CA8422D4854D00C852EA /* PBXTargetDependency */,
 				83361F6F22D586CC0017E226 /* PBXTargetDependency */,
 				83E27BC722DEC8D800199482 /* PBXTargetDependency */,
+				83C3F43F22E054550064F5AD /* PBXTargetDependency */,
 			);
 			name = IMGKitDemo;
 			productName = IMGKitDemo;
@@ -345,6 +453,24 @@
 			name = IMGRouter;
 			productName = IMGRouter;
 			productReference = 8379CA7E22D4854D00C852EA /* IMGRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83C3F43822E054540064F5AD /* IMGExecutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C3F44222E054550064F5AD /* Build configuration list for PBXNativeTarget "IMGExecutor" */;
+			buildPhases = (
+				83C3F43422E054540064F5AD /* Headers */,
+				83C3F43522E054540064F5AD /* Sources */,
+				83C3F43622E054540064F5AD /* Frameworks */,
+				83C3F43722E054540064F5AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMGExecutor;
+			productName = IMGExecutor;
+			productReference = 83C3F43922E054540064F5AD /* IMGExecutor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		83E27BC022DEC8D800199482 /* IMGMaker */ = {
@@ -371,6 +497,7 @@
 		8379CA5622D4827800C852EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Chris;
 				TargetAttributes = {
@@ -381,6 +508,9 @@
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					8379CA7D22D4854D00C852EA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					83C3F43822E054540064F5AD = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					83E27BC022DEC8D800199482 = {
@@ -405,6 +535,7 @@
 				8379CA7D22D4854D00C852EA /* IMGRouter */,
 				83361F6822D586CC0017E226 /* IMGCategory */,
 				83E27BC022DEC8D800199482 /* IMGMaker */,
+				83C3F43822E054540064F5AD /* IMGExecutor */,
 			);
 		};
 /* End PBXProject section */
@@ -428,6 +559,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8379CA7C22D4854D00C852EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C3F43722E054540064F5AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -498,12 +636,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83C3F43522E054540064F5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C3F44822E054F20064F5AD /* IMGExecutor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		83E27BBD22DEC8D800199482 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83C3F40F22E00F8A0064F5AD /* IMGLabelMaker.m in Sources */,
+				83C3F41722E017C20064F5AD /* IMGControlMaker.m in Sources */,
+				83C3F41322E011760064F5AD /* IMGImageViewMaker.m in Sources */,
 				83E27BD822DF0A7800199482 /* IMGWindowMaker.m in Sources */,
+				83C3F41F22E0182D0064F5AD /* IMGTextFieldMaker.m in Sources */,
+				83C3F41B22E0180F0064F5AD /* IMGButtonMaker.m in Sources */,
+				83C3F42322E018510064F5AD /* IMGScrollViewMaker.m in Sources */,
 				83E27BD422DECEB400199482 /* IMGViewMaker.m in Sources */,
+				83C3F42B22E018E30064F5AD /* IMGTableViewMaker.m in Sources */,
+				83C3F42722E018D10064F5AD /* IMGTextViewMaker.m in Sources */,
+				83C3F42F22E018F40064F5AD /* IMGCollectionViewMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +679,11 @@
 			isa = PBXTargetDependency;
 			target = 8379CA7D22D4854D00C852EA /* IMGRouter */;
 			targetProxy = 8379CA8322D4854D00C852EA /* PBXContainerItemProxy */;
+		};
+		83C3F43F22E054550064F5AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83C3F43822E054540064F5AD /* IMGExecutor */;
+			targetProxy = 83C3F43E22E054550064F5AD /* PBXContainerItemProxy */;
 		};
 		83E27BC722DEC8D800199482 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -814,6 +974,60 @@
 			};
 			name = Release;
 		};
+		83C3F44322E054550064F5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 57H46ASMJ6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IMGExecutor/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chris.IMGExecutor;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83C3F44422E054550064F5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 57H46ASMJ6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IMGExecutor/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chris.IMGExecutor;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		83E27BCA22DEC8D800199482 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -903,6 +1117,15 @@
 			buildConfigurations = (
 				8379CA8722D4854D00C852EA /* Debug */,
 				8379CA8822D4854D00C852EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C3F44222E054550064F5AD /* Build configuration list for PBXNativeTarget "IMGExecutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C3F44322E054550064F5AD /* Debug */,
+				83C3F44422E054550064F5AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
